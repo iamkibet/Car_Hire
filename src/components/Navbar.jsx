@@ -2,14 +2,14 @@ import React from "react";
 
 const Navbar = () => {
     return (
-     <header className="flex text-dark justify-between items-center h-20 max-w-[1240px] px-4 mx-auto">
-        <div className="">
-            <div className="w-full bg-dark flex max-w-lg">
-                <h1 className="text-[14px] w-full font-bold text-blue ">
+     <header className="">
+        <div className="flex justify-between text-dark items-center h-20 max-w-[1240px] px-4 mx-auto">
+            <div className="">
+                <h1 className="text-[14px] font-bold">
                     <a href="/" title="Car Hire"> Car Hire | Lets Go</a>
                 </h1>
             </div>
-            <div className="w-10 ">
+            <div className="">
                 <nav className="">
                     <ul className="flex">
                         <li className="p-4">
